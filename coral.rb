@@ -7,12 +7,5 @@ cask 'coral' do
   name 'Coral'
   homepage 'https://github.com/konstfish/Coral'
 
-  auto_updates false
-
   app 'Coral.app'
-  #binary "#{appdir}/Coral.app/Contents/Resources/app/bin/code"
-
-  zap trash: [
-               '~/Library/Application Support/Coral',
-             ]
 end
