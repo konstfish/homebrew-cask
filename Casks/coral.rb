@@ -1,6 +1,6 @@
 cask 'coral' do
   version '0.0.2'
-  sha256 'ecdaa2579527929b2388e6b6db6a09f3b69b5db5855503a9d7e27da99cdcb29a'
+  sha256 '4a37f51ab8032453ba202230c8d223f361a107afe423c14c091e72bcfecfa55e'
 
   url "https://github.com/konstfish/Coral/releases/download/#{version}/Coral-#{version}.zip"
   appcast 'https://github.com/konstfish/Coral/releases.atom'
